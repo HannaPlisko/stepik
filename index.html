@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Общая информация</legend>
+            <div>
+                    <label for="info1">Фамилия</label>
+                    <input type="text" name="text" id="info1" placeholder="Иванов">
+             </div>
+             <div>     
+                    <label for="info2">Имя</label>
+                    <input type="text" name="text" id="info2" placeholder="Иван">
+            </div>  
+            <div>      
+                    <label for="info3">Отчество</label>
+                    <input type="text" name="text" id="info3" placeholder="Иванович">
+            </div>  
+            <div>   
+                    <label for="info1">email</label>
+                    <input type="email" name="text" id="info4"placeholder="mail@mail.ru">
+            </div>
+        </fieldset>
+        <fieldset>
+                <legend>Пол</legend>
+                    <input type="radio" id="sex" name="sex" value="male">
+                    <label for="sex">М</label>
+                    <input type="radio" id="sex" name="sex" value="female">
+                    <label for="sex">Ж</label>
+        </fieldset>
+        <fieldset>
+            <legend>Хобби</legend>
+            <input type="checkbox" id="hobby1" value="painting">
+            <label for="hobby1">Рисование</label>
+            <input type="checkbox" id="hobby2" value="reading">
+            <label for="hobby2">Чтение</label>
+            <input type="checkbox" id="hobby3" value="knitting">
+            <label for="hobby3">Вязание</label>
+            <input type="checkbox" id="hobby4" value="cooking">
+            <label for="hobby4">Кулинария</label>
+        </fieldset>
+            <input type="submit" value="Отправить">
+            <input type="submit" value="Очистить">
+    </form>
+</body>
+</html>
